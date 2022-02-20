@@ -9,7 +9,7 @@ The repository contains educational projects completed during the advanced train
 
 
 | № | Name | Description | Packages&Libraries|
-| --------- | ------- | ----------------------- | ---------- | 
+| --------- | ------- | ----------------------- | ------- | 
 | [01 - Data preprocessing](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/1_debts_data_praparation.ipynb) | Reliability of borrowers | Identify and fill in missing values; describe the possible causes of gaps in the data; replace the real data type with an integer; remove duplicates; lemmas are highlighted in the values of the column with the purposes of obtaining a loan; the data is categorized.| `pymystem3` `numpy` `pandas` `seaborn` |
 | [02 - Exploratory analysis](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/2_sale_apartments_exploratory_analisis.ipynb) | Analysis of apartment sales advertisements| Data is preprocessed (gaps are filled in, types are changed, duplicates are removed, text data is lemmatized), exploratory data analysis, distributions and graphs of variables were constructed, calculated correlations and regression models| `matplotlib` `pandas` `plotly`  `sklearn` `statistics` `scipy.stats`|
 | [03 - Statistical analysis](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/3_telecom_statistical_analysis.ipynb)  | Determining a favorable tariff for telecom company customers | Pre-process the data, conduct an exploratory analysis, calculate the relationship of variables, build a classification model that can select the most suitable tariff for the company's telecom customers| `scipy` `matplotlib` `numpy` `pandas` `seaborn` `sklearn`|
