@@ -1,35 +1,37 @@
-Репозиторий содержит проекты, выполненные мною в рамках онлайн практики в образовательном сервисе "Яндекс.Практикум". Профессия: Специалист по Data Science.
+The repository contains educational projects completed during the advanced training at Yandex Practicum. 
 
-**Языки программирования:** `Python`, `SQL`
+**Stack:** `Python`, `SQL`
 
 **IDE:** `Jupyter Notebook`
 
-## [Специалист по Data Science](https://praktikum.yandex.ru/data-scientist) (сентябрь 2020 — февраль 2021):
+## [Data Science specialist](https://praktikum.yandex.ru/data-scientist) :
 
-:mortar_board: [Диплом о профессиональной переподготовке «Специалист по Data Science»](https://drive.google.com/file/d/1DQS-eZEieHUnA99e_FdHJNrSYZDA0g-X/view?usp=sharing)
 
-| Спринт | Название проекта | Цель проекта | Используемые библиотеки и модули |
+
+| № | Name | Description | Packages&Libraries|
 | ------------------------ | ----- | ----------- | ---------- | 
-| [01 - введение в машинное обучение](https://github.com/agnesepoikane/Practicum-by-Yandex-Data-Scientist/tree/main/01_introduction_to_ML) | Определение выгодного тарифа для клиентов телеком компании | Построить модель классификации, способную подобрать для клиентов телеком компании наиболее подходящий тариф | **`matplotlib` `numpy` `pandas` `plotly` `sklearn`** |
-| [02 - обучение с учителем](https://github.com/agnesepoikane/Practicum-by-Yandex-Data-Scientist/tree/main/02_supervised_learning)          | Прогнозирование оттока клиентов банка | Построить модель классификации для прогнозирования оттока клиентов банка, опираясь на исторические данные о поведении клиентов и расторжении договоров с банком | `matplotlib` `pandas` `plotly` **`re`** `sklearn` **`statistics`** |
-| [03 - машинное обучение в бизнесе](https://github.com/agnesepoikane/Practicum-by-Yandex-Data-Scientist/tree/main/03_ML_for_business)  | Выбор региона для разработки новых нефтяных скважин | Построить модель машинного обучения и выбрать один из трех регионов, где добыча нефти принесёт наибольшую прибыль. Предстоит проанализировать возможную прибыль и риски техникой `Bootstrap` | **`math`** `matplotlib` `numpy` `pandas` **`pandas_profiling`** `plotly` **`seaborn`** `sklearn` |
-| [04 - сборный проект](https://github.com/agnesepoikane/Practicum-by-Yandex-Data-Scientist/tree/main/04_integrated_project) | Предсказание коэффициента восстановления золота | Построить прототип модели машинного обучение для предсказания коэффициента восстановления золота из золотосодержащей руды | `matplotlib` `numpy` `pandas` `plotly` `seaborn` `sklearn` |
-| [05 - линейная алгебра](https://github.com/agnesepoikane/Practicum-by-Yandex-Data-Scientist/tree/main/05_linear_algebra) | Защита данных клиентов страховой компании | Разработать такой метод преобразования данных, чтобы по ним было сложно восстановить персональную информацию клиентов. При преобразовании данных качество моделей машинного обучения должно сохраниться | `matplotlib` `numpy` `pandas` `plotly` `seaborn` `sklearn` |
-| [06 - численные методы](https://github.com/agnesepoikane/Practicum-by-Yandex-Data-Scientist/tree/main/06_numerical_methods) | Модель для определения рыночной стоимости автомобиля | Построить модель для определения рыночной стоимости автомобилей с пробегом | **`catboost`** **`lightgbm`** `math` `matplotlib` `numpy` `pandas` `seaborn` `sklearn` **`time`** |
-| 07 - временные ряды | | ||
-| [08 - машинное обучение для текстов](https://github.com/agnesepoikane/Practicum-by-Yandex-Data-Scientist/tree/main/08_ML_for_texts) | Классификация комментариев | Создать прототип модели для интернет-магазина, который будет искать токсичные комментарии и отправлять их на модерацию | `matplotlib` **`nltk`** `numpy` `pandas` `plotly` `re` `sklearn` **`wordcloud`** |
-| [09 - извлечение данных](https://github.com/agnesepoikane/Practicum-by-Yandex-Data-Scientist/tree/main/09_data_mining) | Аналитика в авиакомпании | 1) Провести `EDA` и собрать данные из базы средствами `SQL`. 2) Исследовать предпочтения пользователей и проверить гипотезу, что количество рейсов во время фестивалей увеличивается | **`folium`** `matplotlib` `numpy` `pandas` `plotly` **`scipy`** |
-| 10 - компьютерное зрение | | ||
-| 11 - обучение без учителя | |||
-| 12 - выпускной проект | |      |  |
-
-## Контакты
-
-[LinkedIn](https://www.linkedin.com/in/agnese-poikane/) 
-:small_blue_diamond: [Facebook](https://www.facebook.com/agnese.poikane/)
-:small_blue_diamond: [Instagram](https://www.instagram.com/poikaneagnese/)
-:small_blue_diamond: [Blog](https://blog.agnesepoikane.com/)
-
-(c) Агнесе Пойкане, cоциолог и аналитик данных
-<br>2020-2021
+| [01 - Data preprocessing](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/1_debts_data_praparation) | Reliability of borrowers | Identify and fill in missing values; describe the possible causes of gaps in the data; replace the real data type with an integer; remove duplicates; lemmas are highlighted in the values of the column with the purposes of obtaining a loan; the data is categorized.| **`pymystem3` `numpy` `pandas` `seaborn` |
+| [02 - Exploratory analysis](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/2_sale_apartments_exploratory_analisis) | Analysis of apartment sales advertisements| Data is preprocessed (gaps are filled in, types are changed, duplicates are removed, text data is lemmatized), exploratory data analysis, distributions and graphs of variables were constructed, calculated correlations and regression models| `matplotlib` `pandas` `plotly`  `sklearn` `statistics` `scipy.stats`|
+| [03 - Statistical analysis](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/3_telecom_statistical_analysis)  | Determining a favorable tariff for telecom company customers | Pre-process the data, conduct an exploratory analysis, calculate the relationship of variables, build a classification model that can select the most suitable tariff for the company's telecom customers| `scipy` `matplotlib` `numpy` `pandas` `seaborn` `sklearn`|
+| [04 - Main project 1](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/4_general_computer_game_project) | Computer games market analysis| Identify the patterns that determine the success of the game. Test hypotheses about the influence of various game success factors | `matplotlib` `numpy` `pandas` `IPython.display` `seaborn` `sklearn` `statistics` `scipy.stats`|
+| [05 - Introduction to machine learning](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/5_ml_recommendation_system) | Tariff recommendation | Create 3 user classification models and test their effectiveness. Divide the sample into training and validation. Select a model with an accuracy greater than 0.75 | `matplotlib` `numpy` `pandas` `plotly` `seaborn` `sklearn.model_selection` 
+`sklearn.ensemble` `sklearn.metrics`|
+| [06 - Supervised Learning](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/6_customer_churn_forecasting) | Customer churn | Build a classification model to predict the outflow of bank customers based on historical data on customer behavior and termination of agreements with the bank. Build a model with a large F1-measure on test data |`matplotlib` `seaborn`  `numpy` `pandas` `sklearn.metrics` `sklearn.model_selection` `sklearn.ensemble` `sklearn.metrics` `sklearn.utils`|
+| [07 - Machine learning in business](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/7_сhoosing_location_for_well) | Choosing a location for a well | Build a machine learning model and choose one of the three regions where oil production will bring the greatest profit. It is necessary to analyze the possible profit and risks using the `Bootstrap` technique| `scipy` `matplotlib` `numpy` `pandas` `plotly` `seaborn` `sklearn.model_selection` 
+`sklearn.ensemble` `sklearn.metrics` `sklearn.preprocessing`|
+| [08 - Main project 2](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/8_ore_cleaning) | Recovery of gold from ore | Prototype a machine learning model to predict the recovery rate of gold from gold ore | `scipy` `matplotlib` `numpy` `pandas` `plotly` `seaborn` `sklearn.model_selection` 
+`sklearn.ensemble` `sklearn.metrics` `sklearn.preprocessing` `sklearn.pipeline` `sklearn.dummy`|
+| [09 - Linear algebra](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/9_linear_algebra_insurance) | Protection of personal data  | Develop a data transformation method so that it is difficult to recover personal information from them.
+The quality of machine learning models should not degrade after data transformation | `matplotlib` `numpy` `pandas` `seaborn` `sklearn` |
+| [10 - Numerical methods](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/10_determination_of_optimal_price) | Cost determining | Create a model to determine the cost of the historical data of the application for the sale of cars: technical specifications, equipment and prices of cars | `scipy` `matplotlib` `numpy` `pandas`  `seaborn` `lightgbm` `catboost` `time` `sklearn.model_selection` 
+`sklearn.ensemble` `sklearn.metrics` `sklearn.preprocessing` `sklearn.pipeline` `sklearn.dummy`|
+| [11 - Time series](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/11_forecasting_taxi_orders) | Forecasting taxi orders | Create a model that predicts the number of taxi orders at airports from historical data. The value of the RMSE metric on the test sample should be no more than 48 | `matplotlib` `numpy` `pandas`  `seaborn` `lightgbm`  `time` `sklearn.model_selection` 
+`sklearn.ensemble` `sklearn.metrics` |
+| [12- Machine learning for texts](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/12_sentiment_analysis_of_comments) | Classification of comments into positive and negative | Create a model to classify comments into positive and negative. There is a database of examples of toxic comments. The value of the quality metric F1 is not less than 0.75 | `matplotlib` `numpy` `pandas`  `seaborn` `pymystem3` `re` `nltk` `sklearn.feature_extraction.text` `sklearn.model_selection` `sklearn.metrics` `sklearn.utils` `time`|
+| [12- SQL](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/05_linear_algebra) | Demand for airline flights | Explore the database and analyze the demand of passengers for flights to cities where the largest festivals take place. Create a request that combines data from 6 different tables. | `SQL` |
+| [13- Сomputer vision](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/05_linear_algebra) |Face detection | Create and train a convolutional neural network on a dataset with photographs of people. Achieve the MAE value on the test sample no more than 8. |  |
+| [14- Final project](https://github.com/belinskayaA/Yandex-Practikum-Data-Science-Projects/tree/main/final_project_telecom) | Predicting customer churn | Prepare data (blanks, duplicates, bring to the desired types), exploratory analysis, balance classes, look at the distributions and relationships of features, it is possible to remove strongly correlated features or compile different sets of features to test models on them.
+Train different models on the validation set, for example, linear regression, DecisionTree, Random Forest, etc. Selection of optimal hyperparameters for models.
+Compare the efficiency and speed of different models on the test set | `scipy` `matplotlib` `numpy` `pandas`  `seaborn` `lightgbm` `catboost` `time` `sklearn.model_selection` 
+`sklearn.ensemble` `sklearn.metrics` `sklearn.preprocessing` `sklearn.pipeline` `sklearn.dummy` |
 
